@@ -1,21 +1,47 @@
 {
-  "name": "libro_notas_nodejs",
-  "version": "1.0.0",
-  "main": "index.js",
-  "type": "module",
-  "scripts": {
-    "start": "node ./src/index.js",
-    "dev": "nodemon ./src/index.js --ignore src/books.json"
+  "name": "react-table",
+  "description": "Proyecto de prueba para manejo de repositorios de versionameinto de código",
+  "version": "0.1.0",
+  "private": false,
+  "author": {
+    "name": "Daniel Ramírez",
+    "email": "nassao@gmail.com",
+    "url": "http://nassao.com"
   },
-  "license": "MIT",
   "dependencies": {
-    "dotenv": "^16.0.3",
-    "ejs": "^3.1.8",
-    "express": "^4.18.2",
-    "morgan": "^1.10.0",
-    "uuid": "^9.0.0"
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4",
+    "@emotion/react": "latest",
+    "@emotion/styled": "latest",
+    "@mui/material": "latest"
   },
-  "devDependencies": {
-    "nodemon": "^2.0.20"
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
